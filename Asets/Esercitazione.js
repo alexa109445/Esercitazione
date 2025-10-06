@@ -83,13 +83,13 @@ console.log("il risultato è: " ,risultato)
 
 
 
- const sommiamo=function(nr1, nr2)
+ const sommiamo=function(nr1, nr2=0)
  {
  let result=nr1+nr2
  console.log("the result is: " ,result)}
  sommiamo(3, 6)
  sommiamo(2, 10)
- 
+ sommiamo(3, )
 
  console.log("il risultato è: ", risultato)
  
@@ -114,4 +114,10 @@ console.log("ciao, ", vai)
  visito("Parigi")
  
  sommiamo("6", "7")
- 
+
+
+ const salutiamotutti=function(nome)
+ {
+    console.log("Ciao, ", nome)
+ }
+ salutiamotutti("Gianni")
